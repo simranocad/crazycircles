@@ -168,11 +168,11 @@ c.strokeWidth=5;
 function randomColor(){
     return(
         "rgba("+
-        Math.round(Math.random()*380)+
+        Math.round(Math.random()*190)+
         ","+
-        Math.round(Math.random()*380)+
+        Math.round(Math.random()*120)+
         ","+
-        Math.round(Math.random()*380)+
+        Math.round(Math.random()*150)+
         ","+
         Math.ceil(Math.random()*60)/20+
         ")"
@@ -192,8 +192,8 @@ function Ball(){
         c.beginPath();
         c.arc(this.x,this.y,this.radius,0,7*
             Math.PI);
-            c.strokeStyle = this.color;
-            c.stroke();
+            c.fillStyle = this.color;
+            c.fill();
     };
 }
 var bal = [];

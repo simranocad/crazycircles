@@ -37,7 +37,7 @@ header ul li a
     text-decoration: none;
     padding: 12px 20px;
     position: center;
-    font: 20pt;
+    font: 20px;
     color: rgb(155, 3, 225);
     border-radius: 20px;
     text-align: center;
@@ -48,11 +48,11 @@ header ul li a
 header ul li a:hover,
 header ul li a.active
 {
-    background: #5f0081;
+    background: #005eb6;
     color: rgb(211, 211, 211);
     
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* section
 {
@@ -74,17 +74,20 @@ header ul li a.active
 /* } */
 h1{
     color: rgb(197, 197, 197);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* z-index: 1; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* z-index: 5; */
     position: relative;
     position: center;
     font-size: 300%;
+    top: 0px;
+    left: -30px;
     text-align: center;
-    font-weight: 20;
+    font-weight: bold;
      /*  */
     padding-top: 3%;
     justify-content: center;
     overflow: hidden;
+    
     /* scroll-padding-top: 20%; */
     
 
@@ -98,7 +101,7 @@ div{
     top: 230px;
     left: 360px;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* white-space: normal; */
     z-index: 30z;
 }
